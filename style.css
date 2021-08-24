@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+    height: 100%;
+}
+
+.pagina-principal{
+    background-image: linear-gradient(#F2EFEB, #A61B34);
+    height: 100%;
+}
+
+.pagina-contatos{
+    background-image: linear-gradient(#F2EFEB, #022601);
+    height: 100%;
+}
+
+main {
+    width: 600px;
+    background-color: #F2EFEB;
+    border-radius: 20px;
+    padding: 10px 5px;
+    text-align: justify;
+    margin: auto;        
+}
+
+h1 {
+    text-align: center;
+    color: #A61B34;
+}
+
+h2 {
+    color: #022601;
+}
+
+.lista-principal{
+    list-style-image: url("flower.ico");
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+
+.lista-links{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+}
+
